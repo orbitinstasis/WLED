@@ -6,7 +6,7 @@
 //Pin defaults for QuinLed Dig-Uno if not overriden
 #ifndef TEMPERATURE_PIN
   #ifdef ARDUINO_ARCH_ESP32
-    #define TEMPERATURE_PIN 18
+    #define TEMPERATURE_PIN 3
   #else //ESP8266 boards
     #define TEMPERATURE_PIN 14
   #endif
